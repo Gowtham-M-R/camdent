@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camdent AI</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header Styles */
+    header {
+        width: 100%;
+        background-color: #ff69b4;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 50px;
+        box-sizing: border-box;
+      }
+
+    header h1 {
+      font-size: 28px;
+      color: #fff;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    header h1 span {
+      color: #ffe6f2;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    #login-btn {
+      background-color: #fff;
+      border: none;
+      color: black;
+      padding: 8px 24px;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #login-btn:hover {
+      background-color: #ffe6f2;
+    }
+
+    #menu-icon {
+      width: 32px;
+      height: 32px;
+      color:#fff;
+      cursor: pointer;
+      fill: #fff;
+    }
+
+    /* Content Styles */
+    .content {
+      flex: 1;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      background-image: url('https://wallpaperbat.com/img/802500-using-ai-to-increase-the-efficiency-of-dental-implant-operations.jpg'); /* Replace this with your background image URL */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 0px 100px;
+      color: #fff;
+      box-sizing: border-box;
+    }
+
+    .content h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .content p {
+      margin-left:20px;
+      font-size: 32px;
+      line-height: 1.8;
+      max-width: 700px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAMDENT <span>AI</span></h1>
+    <div class="header-actions">
+      <button id="login-btn" onclick="window.location.href='login.html'">Login</button>
+      <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M4 6h16M4 12h16m-7 6h7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+  </header>
+
+  <div class="content">
+    <div>
+      <h2>From our early diagnosis to yours</h2>
+      <p>With the use of artificial intelligence, one quick dental check-up is at your fingertips.</p>
+      <p>Early detection and identifying diseases at an earlier stage can minimize disease progression.</p>
+    </div>
+  </div>
+
+  
+</body>
+</html>

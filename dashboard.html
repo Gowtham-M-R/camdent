@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Camdent AI</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header Styles */
+    header {
+      width: 100%;
+      background-color: #ff69b4;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 50px;
+      box-sizing: border-box;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #fff;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    header h1 span {
+      color: #ffe6f2;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header-actions button {
+      background-color: #fff;
+      border: none;
+      color: #ff69b4;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .header-actions button:hover {
+      background-color: #ffe6f2;
+    }
+
+    #menu-icon {
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      fill: #fff;
+    }
+
+    /* Content Styles */
+    .dashboard-content {
+      flex: 1;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      background-image: url('https://medicaldialogues.in/h-upload/2021/09/18/160570-dentalinstrumentsartificialintelligence.jpg'); /* Replace this with your background image URL */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      padding: 0px 100px;
+      color: #fff;
+      box-sizing: border-box;
+    }
+
+    .dashboard-content h2 {
+      font-size: 32px;
+      color: #ff69b4;
+      margin-bottom: 20px;
+    }
+
+    .dashboard-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAMDENT <span>AI</span></h1>
+    <div class="header-actions">
+      <button onclick="window.location.href='scanner.html'">Scanner</button>
+      <button onclick="window.location.href='index.html'">Logout</button>
+    </div>
+  </header>
+
+  <div class="dashboard-content">
+  </div>
+</body>
+</html>
